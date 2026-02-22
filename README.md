@@ -9,10 +9,11 @@ A Settings screen built with Jetpack Compose: Column as main container, each set
 - [x] Modifiers: padding, fillMaxWidth, weight, heightIn, sizeIn, align, background, clickable, clip
 
 ## Screenshots
-*(Add screenshots of your Settings screen here.)*
+
+![Settings screen](screenshot.png)
 
 ## AI disclosure
-*(Disclose any use of AI tools for this assignment.)*
+AI was used for things like project setup, debugging (e.g. fixing imports and API references), and README wording. The layout, structure, and implementation were done by me.
 
 ## How to run
 Open in Android Studio, sync Gradle, run on emulator or device.
