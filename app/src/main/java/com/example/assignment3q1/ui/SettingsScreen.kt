@@ -3,6 +3,7 @@ package com.example.assignment3q1.ui
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -23,6 +24,7 @@ import com.example.assignment3q1.ui.theme.Assignment3Q1Theme
  *   AssistChip, IconButton, Snackbar.
  * - Modifiers: padding, fillMaxWidth, weight, heightIn/sizeIn, align, and one of border/clip/background/clickable.
  */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsScreen() {
     Scaffold(
